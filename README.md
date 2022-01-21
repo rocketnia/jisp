@@ -31,4 +31,4 @@ Jisp has unified semantics for functions, special forms, macros, and string lite
 
 My tinkering with Jisp came to an end shortly after I got through the initial challenge of writing the parser. The implementation of `lambda` is incomplete, and there are no meaningful I/O operations.
 
-Rather than building upon the Jisp codebase, I rebuilt Jisp's style of Lisp-inspired but string-based syntax from scratch in later projects like [Blade](https://github.com/rocketnia/blade), [Penknife Mk. I](https://github.com/rocketnia/penknife), and Chops (part of [Lathe Comforts for JS](https://github.com/rocketnia/lathe-comforts-for-js)).
+Rather than building upon the Jisp codebase, I rebuilt Jisp's style of Lisp-inspired but string-based syntax from scratch in later projects like [Blade](https://github.com/rocketnia/blade), [Penknife Mk. I](https://github.com/rocketnia/penknife), and Chops (part of [Lathe Comforts for JS](https://github.com/lathe/lathe-comforts-for-js)).
