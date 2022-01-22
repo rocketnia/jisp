@@ -1,2 +1,5 @@
-# Added by the build process.
-/Proj/bin/
+# Added by Gradle as a cache directory.
+/.gradle/
+
+# Added by Gradle.
+/lib/build/

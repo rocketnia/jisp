@@ -32,3 +32,15 @@ Jisp has unified semantics for functions, special forms, macros, and string lite
 My tinkering with Jisp came to an end shortly after I got through the initial challenge of writing the parser. The implementation of `lambda` is incomplete, and there are no meaningful I/O operations.
 
 Rather than building upon the Jisp codebase, I rebuilt Jisp's style of Lisp-inspired but string-based syntax from scratch in later projects like [Blade](https://github.com/rocketnia/blade), [Penknife Mk. I](https://github.com/rocketnia/penknife), and Chops (part of [Lathe Comforts for JS](https://github.com/lathe/lathe-comforts-for-js)).
+
+
+## Installation and use
+
+To run Jisp, first install a distribution of the JDK. We've used Eclipse Temurin 17.0.1+12 from Adoptium, but Jisp should work even on much older JVM versions. (At the time of development in 2008, I was developing in Java 6 on the Sun Microsystems JDK.)
+
+Then, run a build with the Gradle wrapper, and run the main class with an appropriate classpath:
+
+```bash
+./gradlew build
+java -classpath lib/build/classes/java/main com.rocketnia.hacks.jisp.Jisp
+```

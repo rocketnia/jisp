@@ -1,0 +1,29 @@
+plugins {
+    id 'java-library'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // TODO: If and when we have unit tests, use a unit test framework like this
+    // one.
+//    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+}
+
+application {
+    mainClass = 'com.rocketnia.hacks.jisp.Jisp'
+}
+
+run {
+    standardInput = System.in
+}
+
+// TODO: If and when we have unit tests, set Gradle up to run them using code
+// like this.
+//
+//tasks.named('test') {
+//    useJUnitPlatform()
+//}
