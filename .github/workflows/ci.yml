@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        jdk-distribution ["temurin"]
+        jdk-distribution: ["temurin"]
         
         # Versions 8 and 17 are the earliest versions the
         # `actions/setup-java@v2` action claims to support.
