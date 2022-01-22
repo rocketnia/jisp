@@ -1,5 +1,7 @@
 # Jisp
 
+[![CI](https://github.com/rocketnia/jisp/actions/workflows/ci.yml/badge.svg)](https://github.com/rocketnia/jisp/actions/workflows/ci.yml)
+
 Jisp is a project I (Rocketnia) made in a few days in March 2008, at a time when I was reading about Lisp and excited by how simple it looked to make my own implementation.
 
 Some aspects of what I read about lisp dialects seemed needlessly inconsistent, such as the non-function-like behavior of `quote` and the non-`quote`-like syntax of string literals.
