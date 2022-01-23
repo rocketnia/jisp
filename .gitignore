@@ -1,5 +1,14 @@
 # Added by Gradle as a cache directory.
 /.gradle/
 
-# Added by Gradle.
+# Added by the Gradle build process.
 /lib/build/
+
+# Additional build artifacts added by IDEs.
+/lib/bin/
+
+# Added by `./gradlew eclipse` and further modified by IDEs.
+/lib/.settings/
+
+# Added by IDEs.
+/.settings/
